@@ -17,7 +17,5 @@ public class exception {
         finally{
             System.out.println("\nEnd of the operation");
         }
-    }
-    
-    
+    }  
 }
