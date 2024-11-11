@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class frequency {
     public static void main(String args[]) {
+        @SuppressWarnings("resource")
         Scanner sc =new Scanner(System.in);
         System.out.print("Enter The String :");
         String str =sc.nextLine();
@@ -15,5 +16,4 @@ public class frequency {
         System.out.println(+ch+" repeats "+count+" times ");
         
     }
-    
 }
