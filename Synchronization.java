@@ -10,7 +10,8 @@ class MyThread1 extends Thread{
     MyThread1(Table t){
         this.t=t;
     }
-public void run(){
+    @Override
+    public void run(){
     t.printTable(5);
 }
 }
@@ -19,6 +20,7 @@ class MyThread2 extends Thread{
      MyThread2(Table t){
         this.t=t;
      }
+     @Override
      public void run(){
         t.printTable(100);
      }

@@ -3,8 +3,8 @@ import java.io.*;
 @SuppressWarnings("unused")
 public class Filehandiling {
     public static void main(String args[])throws IOException{
-        FileInputStream f1=null;
-        FileOutputStream f2=null;
+        FileInputStream f1;
+        FileOutputStream f2;
         try{
             f1=new FileInputStream("test1.txt");
             f2=new FileOutputStream("cp.txt");

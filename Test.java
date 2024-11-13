@@ -1,4 +1,5 @@
 public class Test {
+    @SuppressWarnings("unused")
     public static void main(String args[]) throws InterruptedException {
         Test t1 = new Test();
         Test t2 = new Test();
@@ -11,7 +12,6 @@ public class Test {
         for (int i = 0; i < 5; i++) {
             System.gc();
             Runtime.getRuntime().gc();
-            Thread.sleep(1000);  // Wait to give GC some time
         }
     }
     
